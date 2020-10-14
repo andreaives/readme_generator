@@ -18,6 +18,8 @@
   "homepage": "https://github.com/andreaives/readme_generator#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "inquirer": "^7.3.3"
-  }
+    "inquirer": "^7.3.3",
+    "markdown": "^0.5.0"
+  },
+  "devDependencies": {}
 }
