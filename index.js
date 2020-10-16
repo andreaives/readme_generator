@@ -3,6 +3,7 @@ const fs = require("fs")
 const inquirer = require("inquirer")
 const markdown = require("./generate_markdown")
 const path = require("path")
+const generateMarkdown = require("./generate_markdown")
 
 
 
@@ -66,15 +67,11 @@ function init() {
   inquirer.prompt(questions).then((response) => {
     console.log(response)
     console.log("writing to file")
-    writeToFile("practice.md");
+    writeToFile("practice.md", generateMarkdown(response));
 
-
+    
   })
-  // .then(
-  //   console.log(markdown(data))
-  // )
-
 }
 
-// function call to initialize program
+// function call to start program
 init();
