@@ -1,9 +1,8 @@
 //require files needed
 const fs = require("fs")
 const inquirer = require("inquirer")
-const markdown = require("./generate_markdown")
 const path = require("path")
-const generateMarkdown = require("./generate_markdown")
+const generateMarkdown = require("./utils/generate_markdown")
 
 
 
@@ -39,7 +38,7 @@ const questions = [
     //getting the section about usage information
     type: "input",
     message: "What command should be used to run tests:",
-    name: 'UserTest'
+    name: 'userTest'
   }, {
     // How can some one contribut to this repo
     type: "input",
@@ -50,8 +49,9 @@ const questions = [
     //list of liscense options
     type: "list",
     message: "Choose the license used:",
-    name: "license",
-    choices: ["IBM", "ISC License", "MIT", "Mozilla", "none"]
+    choices: ["IBM", "ISC License", "MIT", "Mozilla", "none"],
+    name: "license"
+    
   }
 ]
 
