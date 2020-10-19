@@ -21,14 +21,14 @@ function generateMarkdown(data) {
  ${data.description}
  ## Usage 
  ${data.usage}
- ## Usage
+ ## Installation
  ${data.installation}
  ## Contributing
- ${data.contributing}
+ ${data.contribute}
  ## Liscense
- This project is liscensed by ${data.liscense}.
+ This project is liscensed by ${data.license}.
  ## Tests
- ${data.userTests}
+ ${data.userTest}
 
  ##Questions
  If you have any questions please reach out to me at ${data.email}.
@@ -38,9 +38,7 @@ function generateMarkdown(data) {
 
  
  `
-
 }
 
 module.exports = generateMarkdown;
 
-// create template here 
