@@ -4,16 +4,18 @@
  
  ## Table of Contents
  * [Description](#description)
- * [Usage](#desription)
+ * [Usage](#usage)
  * [Installation](#installation)
  * [Contributing](#contibuting)
  * [Tests](#tests)
  * [Questions](#questions)
  
  ## Description
- This is a readme generator.
+ This is a readme generator that will ask a series of questions in the terminal then generate a read me according to the responses.
  ## Usage 
- undefined
+ 
+ [To see usage in action click here](https://drive.google.com/file/d/1IMifuL5sdK5ZDT3AV3P3SXG7pSatpN14/view)
+ 
  ## Usage
 Pull from this repo, to install dependencies enter `npm init` & `npm install`
  ## Contributing

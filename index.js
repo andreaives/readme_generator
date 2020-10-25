@@ -11,37 +11,30 @@ const generateMarkdown = require("./utils/generate_markdown")
 const questions = [
   {
     //grabbing a name of the project from a user
-    type: "input",
     message: "Give your README a name.",
     name: 'readmeName'
   }, {
     // need creator github handle
-    type: "input",
     message: "What is your Github handle?",
     name: "gitHandle"
   }, {
     //getting creator email address
-    type: "input",
     message: "What is your email address?",
     name: "email"
   }, {
     //getting a description of the project from a user
-    type: "input",
     message: "Describe your project.",
     name: 'description'
   },{
     //getting the installation section information
-    type: "input",
     message: "Provide installation instructions:",
     name: 'installation'
   }, {
     //getting the section about usage information
-    type: "input",
     message: "What command should be used to run tests:",
     name: 'userTest'
   }, {
     // How can some one contribut to this repo
-    type: "input",
     message: "How can someone contribute to this repo?",
     name: "contribute"
 
