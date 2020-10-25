@@ -25,7 +25,7 @@ Pull from this repo, to install dependencies enter `npm init` & `npm install`
  ## Tests
 No tests created yet.
 
- ##Questions
+ ## Questions
  If you have any questions please reach out to me at andreasue3@gmail.com.
 
  Or connect with me through GitHub.
